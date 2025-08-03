@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Modern To-Do List</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>My To-Do List</h1>
+        
+        <div class="input-container">
+            <input type="text" id="todo-input" placeholder="Add a new task..." autofocus />
+            <button id="add-btn">+</button>
+        </div>
+
+        <div id="empty-state" class="empty-state">
+            <img src="https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/39dd0daa-2755-408f-b94a-91ea1a44fa8c.png" alt="Illustration of a clipboard with checkmarks and a pencil, representing an empty to-do list" />
+            <p>Your to-do list is empty. Add some tasks!</p>
+        </div>
+
+        <ul id="todo-list" class="todo-list">
+            
+        </ul>
+
+        <div id="stats" class="stats">
+            <span id="total-count">0</span> tasks in total
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
